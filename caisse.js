@@ -37,3 +37,11 @@ console.log(`Total :  ${total} FCFA`);
 console.log(`Budget : ${budget} FCFA`);
 
 console.log(message);
+
+console.log("")
+
+for (let i = 1; i <= 5; i++) {
+
+  console.log("Achat numéro " + i);
+
+}
