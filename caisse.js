@@ -13,3 +13,15 @@ let montantCahiers = prixCahier * quantiteCahiers;
 let montantStylos = prixStylo * quantiteStylos;
 
 let total = montantCahiers + montantStylos;
+
+let message;
+
+if (total <= budget) {
+
+  message = "Budget suffisant";
+
+} else {
+
+  message = "Budget insuffisant";
+  
+}
